@@ -1,5 +1,6 @@
-import Header from "../components/Header/Header.jsx";
-import Home from "../components/Home/Home.jsx";
-import Footer from "../components/Footer/Footer.jsx";
+import Header from "./Header/Header.jsx";
+import Home from "./Home/Home.jsx";
+import About from "./About/About.jsx";
+import Footer from "./Footer/Footer.jsx";
 
-export {Header, Home, Footer};
+export {Header, Home, About, Footer};
