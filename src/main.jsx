@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import {Home, About, Contact, GitHub} from "../components/index";
+import {Home, About, Contact, GitHub, User} from "../components/index";
 
 // 1st Way of Creating Routes (Client-Side) - Complex Version:
 // const router = createBrowserRouter([
@@ -55,8 +55,9 @@ createRoot(document.getElementById('root')).render(
           <Route path="about" element={<About/>} />
           <Route path="contact" element={<Contact/>} />
           <Route path="github" element={<GitHub/>} />
+          <Route path="user/:id" element={<User/>} />
         </Route>
       </Routes>
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )
