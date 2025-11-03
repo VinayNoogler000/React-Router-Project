@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from "react-router-dom";
-import {Home, About, Contact, GitHub, User} from "../components/index";
-import { githubInfoLoader } from '../components/GitHub/GitHub.jsx';
+import {Home, About, Contact, GitHub, User} from "./components/index";
+import { githubInfoLoader } from './components/GitHub/GitHub.jsx';
 
 // 1st Way of Creating Routes (Client-Side) - Complex Version:
 // const router = createBrowserRouter([
