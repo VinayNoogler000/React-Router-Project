@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import { Outlet } from "react-router-dom";
+import { Header, Footer } from '../components/index.jsx';
 
-function App() {
-
-  return (
-    <h1 className='bg-green-600 p-4'>React Router</h1>
-  )
+export default function App() {
+    return ( 
+        <>
+            <Header />
+            <Outlet />
+            <Footer />
+        </>
+    );
 }
-
-export default App
