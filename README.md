@@ -4,4 +4,5 @@ This project is created to learn and strengthen my React-Router-DOM fundamentals
 
 ## Learnings
 
-1. 
+1. React-Router-DOM
+2. `Outlet` Component of React-Router-DOM
